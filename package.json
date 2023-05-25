@@ -1,20 +1,20 @@
 {
-  "name": "@sidneys/is-env",
+  "name": "@bengennaria/is-env",
   "version": "1.143.0",
   "description": "Flexible creation & lookup of global namespaces, e.g. 'development', 'staging', 'stable'",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/sidneys/is-env",
+  "homepage": "https://github.com/bengennaria/is-env",
   "author": {
-    "name": "sidneys",
-    "email": "sidneys.github.io@outlook.com",
-    "url": "https://bitbucket.org/sidneys"
+    "name": "bengennaria",
+    "email": "ben.gennaria@gmail.com",
+    "url": "https://github.com/bengennaria"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/sidneys/is-env.git"
+    "url": "https://github.com/bengennaria/is-env.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/sidneys/is-env/issues"
+    "url": "https://github.com/bengennaria/is-env/issues"
   },
   "deprecated": false,
   "engines": {
@@ -31,7 +31,7 @@
     "tools"
   ],
   "dependencies": {
-    "@sidneys/required-count": "^1.158.0",
+    "@bengennaria/required-count": "git+https://bengennaria@github.com/bengennaria/required-count.git",
     "chalk": "^4.1.0",
     "chalkline": "^0.0.5",
     "lodash": "^4.17.20",
