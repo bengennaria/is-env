@@ -1,0 +1,45 @@
+{
+  "name": "@sidneys/is-env",
+  "version": "1.143.0",
+  "description": "Flexible creation & lookup of global namespaces, e.g. 'development', 'staging', 'stable'",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/sidneys/is-env",
+  "author": {
+    "name": "sidneys",
+    "email": "sidneys.github.io@outlook.com",
+    "url": "https://bitbucket.org/sidneys"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bitbucket.org/sidneys/is-env.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/sidneys/is-env/issues"
+  },
+  "deprecated": false,
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "os": [
+    "darwin",
+    "win32",
+    "linux"
+  ],
+  "keywords": [
+    "development",
+    "tools"
+  ],
+  "dependencies": {
+    "@sidneys/required-count": "^1.158.0",
+    "chalk": "^4.1.0",
+    "chalkline": "^0.0.5",
+    "lodash": "^4.17.20",
+    "minimist": "^1.2.5",
+    "try-require": "^1.2.1"
+  },
+  "main": "./lib/main.js",
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}
